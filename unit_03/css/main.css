@@ -1,0 +1,154 @@
+/* ----- ~WHOLE PAGE~ ----- */
+body {
+	background: radial-gradient(circle, rgba(7, 14, 36, 0.75),rgba(0, 0, 0, 0.75)), url("img/page1.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+
+
+
+/* ----- ~ABOUT~ ----- */
+#aboutHead {
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+#aboutHead:hover + #mainText {
+	opacity: 0;
+}
+
+#aboutHead:hover > #aboutContent {
+	opacity: 1;
+}
+
+h3 {
+	font-size: 22px;
+	color: #bbb;
+	letter-spacing: normal;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 2px;
+
+	transition-property: font-size;
+	transition-duration: 2s;
+}
+h3:hover {
+	font-size: 25px;
+}
+
+#aboutContent {
+	opacity: 0;
+	width: 600px;
+	height: 200px;
+	color: #ddd;
+	text-align: center;
+	position: fixed;
+	margin-top: 22px;
+	margin-left: -250px;
+
+	transition-property: opacity;
+	transition-delay: 1.5s;
+	transition-duration: 2s;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+
+/* ----- ~MAIN TEXT~ ----- */
+#mainText {
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 2px, 2px, 8px, #000;
+	opacity: 1;
+
+	transition-property: opacity;
+	transition-duration: 2s;
+}
+#mainText:hover > h2 {
+	color: #777;
+}
+
+h1 {
+	font-size: 90px;
+	color: #fff;
+	letter-spacing: normal;
+	font-family: 'Poiret One', sans-serif;
+	line-height: 0%;
+	transition-property: letter-spacing;
+	transition-duration: 4s;
+}
+h1:hover {
+	letter-spacing: 8px;
+}
+
+h2 {
+	font-size: 19px;
+	margin-bottom: 50px;
+	color: #ddd;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+	transition-property: color;
+	transition-duration: 3s;
+}
+
+.hrMain {
+	border: 0;
+    height: 1px;
+	background-image: linear-gradient(to right, rgba(200,200,200, 0), rgba(200,200,200, 0.75), rgba(200,200,200, 0));
+}
+
+/* ----- ~Contact~ ----- */
+#contactHead {
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	top: 76%;
+	left: 50%;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+
+#contactHead:hover > #contactContent {
+	opacity: 1;
+}
+
+#contactContent {
+	opacity: 0;
+	width: 250px;
+	height: 120px;
+	color: #ddd;
+	text-align: center;
+
+	transition-property: opacity;
+	transition-duration: 2s;
+}
+
+.fa {
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 200px;
+	transition-property: color;
+	transition-duration: 1s;
+}
+
+.fa:hover {
+	color: #104373;
+}
+
+
+
+
+
