@@ -1,0 +1,112 @@
+/*   GLOBAL   */
+body {
+	background-image: radial-gradient(circle, rgba(10,15, 40, 0.75), rgba(0, 0, 0, 0.75)), url("images/page4.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+h1 {
+	font-family: 'Josefin Sans', 'Sail', sans-serif;
+	font-size: 100px;
+	font-weight: 300;
+	letter-spacing: 8px;
+	line-height: 0%;
+	transtion: letter-spacing, 4s;
+}
+
+h2 {
+	font-family: 'Sanchez', serif;
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 50px;
+	color: #ddd;
+	font-style: italic;
+}
+ h3 {
+ 	font-family: 'Sanchez';
+ }
+
+ p {
+ 	font-family: Helvetica;
+ }
+
+
+/*    Header    */
+#head {
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hrHead {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(200,200,200,0), rgba(200,200,200,0.75), rgba(200,200,200,0));
+}
+
+/*    About    */
+#aboutHead {
+	color: #666;
+	text-align: center;
+	position: fixed;
+	top: 75%;
+	left: 50%;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+/*#aboutHead:hover > #aboutContent {
+	opacity: 1;	
+}*/
+#aboutH1 {
+	padding-right: 300px;
+}
+#aboutContent {
+	opacity: 0;
+	transition: opacity, 2s;
+}
+
+/*    Portfolio    */
+#portfolioHead {
+	color: #666;
+	text-align: center;
+	position: fixed;
+	top: 68.5%;
+	left: 50%;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+/*#portfolioHead:hover > #portfolioContent {
+	opacity: 1;	
+}*/
+#portfolioContent {
+	opacity: 1;
+	transition: opacity, 2s;
+}
+
+
+/*    Contact    */
+#contactHead {
+	color: #666;
+	text-align: center;
+	position: fixed;
+	top: 70.5%;
+	left: 50%;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+/*#contactHead:hover > #contactContent {
+	opacity: 1;	
+}*/
+#contactH1 {
+	padding-left: 300px;
+}
+#contactContent {
+	opacity: 0;
+	transition: opacity, 2s;
+}
+
+
+

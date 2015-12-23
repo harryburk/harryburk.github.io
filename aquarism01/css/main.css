@@ -1,0 +1,133 @@
+/*     TAG STYLES     */
+h1 {
+	font-family: 'PT Serif', serif;
+	font-size: 55px;
+	letter-spacing: 40px;
+}
+
+h2 {
+	font-family: 'Patua One', sans-serif;
+	font-size: 40px;
+	color: #fff;
+}
+
+h4 {
+	font-family: 'Patua One', sans-serif;
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+
+h5 {
+	font-family: 'Patua One', sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*     MAIN PAGE     */
+#head {
+	position: absolute;
+	color: #fff;
+	line-height: 0.5;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*     GETTIN STARTED     */
+#getting-started {
+	width: 100%;
+	height: 800px;
+	background-color: #333;
+	color: #ddd;
+}
+
+#gsHead {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#gsContent1 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+#gsContent2 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+#gsContent3 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+
+/*     SPECIES PAGE     */
+#species {
+	width: 100%;
+	height: 600px;
+	background-color: white;
+}
+
+#speciesHead {
+	color: #333;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 50px;
+}
+
+#speciesContent1 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+#speciesContent2 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+#speciesContent3 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+
+
+/*     GROUPS PAGE     */
+#groups {
+	width: 100%;
+	height: 600px;
+	background-color: #0F2545;
+}
+
+#groupsHead {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#groupsContent1 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+#groupsContent2 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+#groupsContent3 {
+	float: left;
+	width: 28%;
+	padding: 35px;
+}
+
+
+
+
+
+
