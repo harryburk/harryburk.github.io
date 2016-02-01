@@ -1,0 +1,173 @@
+/*  MAIN  */
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px; 
+}
+nav {
+	/*height: 80px;*/
+	/*background-color: #E8C66A;*/
+}
+main {
+	height: 2400px;
+	border: 1px black solid;
+    padding: 20px;
+	/*background-color: yellow;*/
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	height: 200px;
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+/*  TEXT  */
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: 102px;
+}
+
+h2 {
+	font-family: 'Sanchez', serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+h3 {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+ul {
+	background-color: #E8C66A;
+	position: fixed;
+	bottom: 0px;
+	padding-top: 28px;
+	height: 40px;
+	width: 100%;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	font-size: 24px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-right: 1px solid #bbb; 
+}
+
+li:last-child {
+	border-right: none;
+}
+
+/*  ID's  */
+#hero {
+	/*background-image: url("images/img4.jpg");*/
+	height: 800px;
+	background-size: cover;
+}
+
+#head {
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#subhead {
+	margin-top: -90px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#portfolio {
+	/*background-color: white;*/
+	height: 800px;
+}
+
+#contact {
+	/*background-color: black;*/
+	height: 800px;
+}
+
+#left {
+	background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

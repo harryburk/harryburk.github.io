@@ -1,0 +1,350 @@
+/*-------------MAIN-------------*/
+	body {
+		font-family: 'Sanchez', 'Yesteryear', serif; 
+		margin: 0;
+		text-align: center;
+	}
+
+	img {
+		max-width: 100%;
+		float: left;
+	}
+
+	#wrapper {
+		margin: 0;
+	}
+
+	header {
+		margin: 0;
+	}
+
+	#hero {
+		background-image: url("folio/ocean1.jpg");
+		height: 800px;
+		background-size: cover;
+	}
+
+	#head {
+		margin: 0 auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#subhead {
+		margin-top: -90px;
+	}
+
+
+	nav {
+		height: 70px;
+		background-image: url("images/triangles.png");
+		margin: 0 auto;
+		text-align: center;
+
+	}
+
+	ul {
+		margin: 0 auto;
+		list-style-type: none;
+		width: 100%;
+	}
+
+	li {
+		/*float: left;*/
+		display: inline;
+	}
+
+	li a {
+		color: #eee;
+		text-decoration: none;
+		display: block;
+		float: left;
+		padding: 20px;
+
+		transition: color 0.4s;
+	}
+
+	li a:hover {
+		color: #03899c;
+	}
+
+	#about {
+		background-image: url("images/newyear.png");
+		height: 600px;
+		width: 100%;
+	}
+
+	aside {
+		float: left;
+		width: 33%;
+		height: 100%;
+		background-image: url("images/triangles.png");
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	#content {
+		float: right;
+		width: 66%;
+		padding-top: 175px;
+	}
+
+	.aboutcontent {
+		padding: 0px 150px 0px;
+	}
+
+	#portfolio {
+		height: 1420px;
+		background-image: url("images/wood.png");
+	}
+
+	#contact {
+		background-image: url("images/triangles.png");
+		height: 300px;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.fa {
+		color: #fff;
+
+		transition: color 1s;
+	}
+
+	.fa:hover {
+		color: #03899c;
+	}
+
+	#copyright {
+		color: #ddd;
+		padding-top: 50px;
+	}
+
+	footer {
+	}
+
+/*-------------TEXT-------------*/
+	h1 {
+		font-family: 'Josefin Sans';
+		font-size: 102px;
+		text-align: center;
+		color: white;
+		text-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+	}
+
+	h2 {
+		font-family: 'Sanchez';
+		font-size: 18px;
+		text-align: center;
+		color: #eee;
+	}
+
+	h3 {
+		text-align: center;
+		font-size: 32px;
+		margin: 0;
+	}
+
+	h6 {
+		text-align: center;
+		font-size: 10px;
+	}
+
+
+/*-------------PORTFOLIO GRID-------------*/
+	.controls {
+		padding: 2%;
+		background-image: url("images/triangles.png");
+		color: #eee;
+		text-align: center;
+	}
+
+	label {
+		margin: 0 0.4em 0 0;
+	}
+
+	button {
+		display: inline-block;
+		padding: 0.4em 0.8em;
+		margin-top: 10px;
+		background: #666;
+		border: 2px solid #666;
+		color: #eee;
+		font-size: 13px;
+		border-radius: 6px;
+
+		-webkit-transition-duration: 0.4s; /* Safari */
+	    transition-duration: 0.4s;
+	}
+
+	button:active {
+		background: #68b8c4; 
+	}
+
+	button:hover {
+		background: #fff;
+		color: #666;
+		border: 2px solid #888;
+	}
+
+	.container {
+		padding: 2% 2% 0;
+		text-align: justify;
+		/*background: #68b8c4;*/
+		font-family: 'Sanchez';
+
+		-webkit-backface-visibility: hidden;
+	}
+
+	.container:after{
+	  content: '';
+	  display: inline-block;
+	  width: 100%;
+	}
+
+	.container .mix,
+	.container .gap{
+	  display: inline-block;
+	  width: 49%;
+	}
+
+	.container .mix{
+	  text-align: left;
+	  background: #03899c;
+	  margin-bottom: 2%;
+	  display: none;
+	}
+
+	.container .mix.ocean {
+	  border-top: 5px solid #01B0F0;
+	}
+
+	.container .mix.wildlife {
+	  border-top: 5px solid #FF358B;
+	}
+
+	.container .mix.landscape {
+	  border-top: 5px solid #AEEE00;
+	}
+
+	.container .mix.other {
+	  border-top: 5px solid #333333;
+	}
+
+	#ocean1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/ocean1.jpg");
+	  	background-size: cover;
+	}
+
+	#ocean2 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/ocean2.jpg");
+	  	background-size: cover;
+	}
+
+	#wild1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/wild1.jpg");
+	  	background-size: cover;
+	}
+
+	#wild2 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/wild2.jpg");
+	  	background-size: cover;
+	}
+
+	#wild3 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/wild3.jpg");
+	  	background-size: cover;
+	}
+
+	#land1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land1.jpg");
+	  	background-size: cover;
+	}
+
+	#land2 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land2.jpg");
+	  	background-size: cover;
+	}
+
+	#land3 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land3.jpg");
+	  	background-size: cover;
+	}
+
+	#land4 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land4.jpg");
+	  	background-size: cover;
+	}
+
+	#land5 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land5.jpg");
+	  	background-size: cover;
+	}
+
+	#other1 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/other1.jpg");
+	  	background-size: cover;
+	}
+
+	#other2 {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/other2.jpg");
+	  	background-size: cover;
+	}
+
+	.container .mix:after{
+	  content: attr(data-myorder);
+	  color: #eee;
+	  text-shadow: 0px 0px 3px rgba(0,0,0,0.7);
+	  font-size: 16px;
+	  display: inline-block;
+	  vertical-align: top;
+	  padding: 4% 6%;
+	  font-weight: 700;
+	}
+
+	.container .mix:before{
+	  content: '';
+	  display: inline-block;
+	  padding-top: 60%;
+	}
+
+	@media all and (min-width: 420px){
+	  .container .mix,
+	  .container .gap{
+	    width: 32%;
+	  }
+	}
+
+	@media all and (min-width: 640px){
+	  .container .mix,
+	  .container .gap{
+	    width: 32.5%;
+	  }
+	 }
+
+/*-------------SOCIAL MEDIA-------------*/
+	#social {
+		padding-top: 40px;
+	}
+
+	.fa-instagram {
+		padding-right: 15px;
+		border-right: 1px solid #eee;
+	}
+
+	.fa-facebook-square {
+		padding-left: 10px;
+		padding-right: 15px;
+		border-right: 1px solid #eee;
+	}
+
+	.fa-behance-square {
+		padding-left: 10px;
+	}
+
+
+
+
