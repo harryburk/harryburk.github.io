@@ -19,7 +19,7 @@
 	}
 
 	#hero {
-		background-image: url("folio/ocean1.jpg");
+		background-image: url("images/misthero.jpg");
 		height: 800px;
 		background-size: cover;
 	}
@@ -93,10 +93,11 @@
 
 	.aboutcontent {
 		padding: 0px 150px 0px;
+		color: #333;
 	}
 
 	#portfolio {
-		height: 1420px;
+		height: 780px;
 		background-image: url("images/wood.png");
 	}
 
@@ -151,8 +152,16 @@
 	h6 {
 		text-align: center;
 		font-size: 10px;
+		color: #eee;
 	}
 
+	p {
+		color: #eee;
+	}
+
+	b {
+		color: #03899c;
+	}
 
 /*-------------PORTFOLIO GRID-------------*/
 	.controls {
@@ -218,79 +227,45 @@
 	  display: none;
 	}
 
-	.container .mix.ocean {
+	.container .mix.personal {
 	  border-top: 5px solid #01B0F0;
 	}
 
-	.container .mix.wildlife {
+	.container .mix.commission {
 	  border-top: 5px solid #FF358B;
 	}
 
-	.container .mix.landscape {
+	.container .mix.professional {
 	  border-top: 5px solid #AEEE00;
 	}
 
-	.container .mix.other {
+	.container .mix.stock {
 	  border-top: 5px solid #333333;
 	}
 
-	#ocean1 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/ocean1.jpg");
+	#mist {
+		background-image: url("images/misthero.jpg");
+	  	background-size: cover;
+	  	opacity: 1;
+	}
+
+	#found {
+		background-image: url("images/foundhero.jpg");
 	  	background-size: cover;
 	}
 
-	#ocean2 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/ocean2.jpg");
+	#unkempt {
+		background-image: url("images/unkempthero.jpg");
 	  	background-size: cover;
 	}
 
-	#wild1 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/wild1.jpg");
+	#wild {
+		background-image: url("images/wildhero.jpg");
 	  	background-size: cover;
 	}
 
-	#wild2 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/wild2.jpg");
-	  	background-size: cover;
-	}
-
-	#wild3 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/wild3.jpg");
-	  	background-size: cover;
-	}
-
-	#land1 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land1.jpg");
-	  	background-size: cover;
-	}
-
-	#land2 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land2.jpg");
-	  	background-size: cover;
-	}
-
-	#land3 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land3.jpg");
-	  	background-size: cover;
-	}
-
-	#land4 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land4.jpg");
-	  	background-size: cover;
-	}
-
-	#land5 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/land5.jpg");
-	  	background-size: cover;
-	}
-
-	#other1 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/other1.jpg");
-	  	background-size: cover;
-	}
-
-	#other2 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("folio/other2.jpg");
+	#rise {
+		background-image: url("images/risehero.jpg");
 	  	background-size: cover;
 	}
 
